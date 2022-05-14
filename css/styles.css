@@ -129,9 +129,6 @@ img {
   padding-bottom: 32px;
   color: inherit;
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .nav-item:last-child {
@@ -172,6 +169,8 @@ margin-right: 50px;
   padding-bottom: 200px;
   background-color: #2F303A;
   text-align: center;
+
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imajes/hero.jpg);
 }
 .container.hero-title { 
   text-align: center;
@@ -438,6 +437,10 @@ margin-right: 50px;
 
 .pro-item {
   margin: 15px;
+}
+
+.pro-item a {
+  text-decoration: none;
 }
 
 .pro-item-title {
