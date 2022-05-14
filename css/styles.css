@@ -6,6 +6,7 @@
   --contact-color: rgba(255, 255, 255, 0.6);
   --main-background: #ffffff;
   --secondary-background: #f5f4fa;
+  --icon-color: #AFB1B8;
 }
 
 *,
@@ -212,6 +213,11 @@ margin-right: 50px;
   cursor: pointer;
 }
 
+.section.hero .button:hover{
+background-color: #188CE8
+}
+
+
 /*Our advantages */
 .advantag {
     padding-top: 94px;
@@ -304,7 +310,14 @@ margin-right: 50px;
 }
 
 .team-list-lastname {
-  margin-right: 30px;
+    width: calc((100%-90)/4);
+      margin-right: 30px;
+    
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+    
 }
 
 .team-list-lastname:last-child {
@@ -326,12 +339,40 @@ margin-right: 50px;
 }
 
 .team-post {
-  
+  margin-bottom: 16px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+
+  color: var(--icon-color);
+
+  border-radius: 50%;
+}
+
+.social-icon {
+  fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: var(--white-color);
+  background-color: var(--brand-color);
 }
 
 /* Footer */
