@@ -502,6 +502,7 @@ justify-content: center;
 .social-list.footer {
   display: flex;
   margin-top: 20px;
+  padding-bottom: 30px;
 }
 
 .social-link.footer {
@@ -515,7 +516,7 @@ justify-content: center;
 }
 
 .slogan-wrap {
-  margin: 75px ;
+  margin-left: 70px ;
 }
 
 .social-list {
